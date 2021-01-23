@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^solt\.pw [NC]
+RewriteRule (.*) index.php
